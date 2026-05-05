@@ -46,6 +46,7 @@ export const metadata: Metadata = {
     languages: { en: "/", "zh-CN": "/", "x-default": "/" },
   },
   openGraph: {
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "Civilization Architect · 文明架构师" }],
     title: "Civilization Architect — civilizations are systems, not stories",
     description:
       "Treat civilization as a function of seven variables. Most history becomes legible.",
@@ -56,6 +57,7 @@ export const metadata: Metadata = {
     alternateLocale: ["zh_CN"],
   },
   twitter: {
+    images: ["/twitter-image.png"],
     card: "summary_large_image",
     title: "Civilization Architect — civilizations are systems, not stories.",
     description: "Seven axes. Ten civilizations. One simulator.",
